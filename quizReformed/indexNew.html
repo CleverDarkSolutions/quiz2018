@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styleNew.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  </head>
+  <body class="theme1">
+      <!--<div class="themeButton" id="themeButtonOne" onclick="changeTheme(1);" style="position: absolute; left: 10px"></div>
+    <div class="themeButton" id="themeButtonTwo" onclick="changeTheme(2);"style="position: absolute; left: 60px"></div>
+    <div class="themeButton" id="themeButtonThree"onclick="changeTheme(3);" style="position: absolute; left: 110px"></div>
+  -->
+    <div class="homeButton" id="homeButton" onclick="homeScreen()"></div>
+    <div class="settingsButton" id="settingsButton" onclick="settingsScreen()"></div>
+
+
+    <div class='starter' id='starter'>
+    <div class="pageTitle" id="pageTitle">Witaj ponownie</div>
+    <div class="firstPage" id="firstPage">
+      <div class="questionListContent" id="questionListContent"></div>
+      <div class="questionSquareDetails" id="questionSquareDetails"></div>
+
+      <div class="firstBox" id="firstBox">
+        <div class="playGame" id="playGame" onclick="loadCasual();"><p>Rozpocznij quiz</p></div>
+        <div class="playTest" id="playTest" onclick="loadTest();"><p>Rozpocznij test </p></div>
+        <div class="addQuestion" id="addQuestion" onclick="questionAddMenu()"><p>Dodaj pytania</p></div>
+        <div class="questionList" id="questionList" onclick="questionList();"><p>Lista pytań</p></div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script src="scriptNew.js"></script>
+
+  </body>
+</html>
